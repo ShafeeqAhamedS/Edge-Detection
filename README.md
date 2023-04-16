@@ -92,8 +92,8 @@ plt.show()
 
 | Format   | Tag example |
 | -------- | ----------- |
-| H | H |
-| N | A |
+|  ![image](https://user-images.githubusercontent.com/93427237/232279968-41d8eb6c-f252-457b-9799-85759de105de.png) |  ![image](https://user-images.githubusercontent.com/93427237/232280105-a11ce40f-50ee-4c35-954f-7634d231ee49.png) |
+| ![image](https://user-images.githubusercontent.com/93427237/232280133-88085951-9edf-4ef8-9862-f2470f0464f6.png) |  ![image](https://user-images.githubusercontent.com/93427237/232280145-b79b2a0c-83ed-48b8-aa25-1928fbfe1720.png) |
 
 
 ### LAPLACIAN EDGE DETECTOR
