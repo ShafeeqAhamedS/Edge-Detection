@@ -10,12 +10,19 @@ Anaconda - Python 3.7
 Import the necessary modules.
 
 ### Step 2:
-Perform edge detection on a image. 
-- Sobel 
-- Laplacian
-- Canny
+Convert image into GRAY using COLOR_BGR2GRAY
 
 ### Step 3:
+Apply Gaussian Blur to the gray image
+
+### Step 4:
+Perform edge detection on a image.
+
+* Sobel
+* Laplacian
+* Canny
+
+### Step 5:
 Display the original images with edge detected images.
 
  
