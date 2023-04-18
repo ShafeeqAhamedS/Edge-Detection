@@ -1,4 +1,4 @@
-# Edge-Detection
+# <p align="center"> Edge-Detection </p>
 ## Aim:
 To perform edge detection using Sobel, Laplacian, and Canny edge detectors.
 
@@ -72,36 +72,41 @@ plt.show()
 ### LAPLACIAN EDGE DETECTOR
 ```py
 laplacian = cv2.Laplacian(img,cv2.CV_64F)
-plt.imshow(laplacian,cmap = 'gray')
-plt.title('laplacian')
-plt.axis("off")
-plt.show()
+cv2.imshow("laplacian",laplacian)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
 ```
 
 ### CANNY EDGE DETECTOR
 ```py
 canny_edges = cv2.Canny(img, 120, 150)
-plt.imshow(canny_edges)
-plt.title('canny_edges')
-plt.axis("off")
-plt.show()
+cv2.imshow("Canny",canny_edges)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
 ```
 
 ## Output:
 ### SOBEL EDGE DETECTOR
 
-| Format   | Tag example |
-| -------- | ----------- |
-| H | H |
-| N | A |
+
+| Original 	|  Sobel X	|
+|:-:	|:-:	|
+|  ![image](https://user-images.githubusercontent.com/93427237/232302426-19c23ff9-4ec3-4742-a490-5d162b5dd0a3.png)	| ![image](https://user-images.githubusercontent.com/93427237/232302405-717247d1-70b9-432c-b2b7-af633783c5ff.png) 	|
+|  Sobel Y	| Sobel XY	|
+|  ![image](https://user-images.githubusercontent.com/93427237/232302359-8a068533-af5c-4733-99e0-f7595e38b059.png)	| ![image](https://user-images.githubusercontent.com/93427237/232302274-442551d7-5aa0-43e9-a01d-4f3271c8ad56.png)|
 
 
 ### LAPLACIAN EDGE DETECTOR
 
-
+| Original 	|  Laplacian |
+|:-:	|:-:	|
+|	![GaussianBlur](https://user-images.githubusercontent.com/93427237/232303603-1adb2755-9744-4876-b8d7-7912f5b6cba8.png) |	![laplacian](https://user-images.githubusercontent.com/93427237/232303583-650ce53e-1831-4e7b-9b4c-b2c2fabd3f38.png) |
 
 ### CANNY EDGE DETECTOR
 
+| Original 	|  Canny Edge |
+|:-:	|:-:	|
+|	![GaussianBlur](https://user-images.githubusercontent.com/93427237/232303603-1adb2755-9744-4876-b8d7-7912f5b6cba8.png) |	![canny_edges](https://user-images.githubusercontent.com/93427237/232303844-ae2086aa-d3b9-4630-9365-d71c90dd2312.png) |
 
 ## Result:
 Thus the edges are detected using Sobel, Laplacian, and Canny edge detectors.
